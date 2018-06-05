@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor="let todo of todo$ | async">
+    <input type="checkbox" [(ngModel)]="todo.completed"> {{todo.name}}
+  </li>
+</ul>

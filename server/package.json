@@ -1,0 +1,15 @@
+{
+    "name": "todoapi",
+    "version": "1.0.0",
+    "description": "Angular JWT Todo API Server",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Sebastian Schocke",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.15.3",
+        "lodash": "^4.17.4"
+    }
+}

@@ -1,0 +1,10 @@
+ul {
+  list-style: none;
+}
+li {
+  font-size: 1.5rem;
+}
+input {
+  transform: scale(2);
+  margin-right: 20px;
+}
