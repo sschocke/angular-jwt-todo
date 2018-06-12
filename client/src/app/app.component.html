@@ -1,8 +1,10 @@
 <div class="container-fluid">
   <h1>Angular Todo List</h1>
   <nav class="nav nav-pills">
-    <a class="nav-link" routerLink="todos" routerLinkActive="active">Todo List</a>
-    <a class="nav-link" routerLink="users" routerLinkActive="active">Users</a>
+    <a class="nav-link" routerLink="todos" routerLinkActive="active" *ngIf="auth.loggedIn">Todo List</a>
+    <a class="nav-link" routerLink="users" routerLinkActive="active" *ngIf="auth.loggedIn">Users</a>
+    <a class="nav-link" routerLink="login" routerLinkActive="active" *ngIf="!auth.loggedIn">Login</a>
+    <a class="nav-link" (click)="logout()" href="#" *ngIf="auth.loggedIn">Logout</a>
   </nav>
   <router-outlet></router-outlet>
 </div>

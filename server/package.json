@@ -9,7 +9,10 @@
     "author": "Sebastian Schocke",
     "license": "ISC",
     "dependencies": {
+        "body-parser": "^1.18.3",
         "express": "^4.15.3",
+        "express-jwt": "^5.3.1",
+        "jsonwebtoken": "^8.3.0",
         "lodash": "^4.17.4"
     }
 }
